@@ -1,0 +1,131 @@
+body {
+  background-color: rgb(218, 209, 209);
+}
+
+.banner {
+  background-color: rgb(107, 107, 197);
+  width: 850px;  
+  height: 230px;
+  margin: 0 auto;
+ }
+
+.profilephoto {
+  border: .5px solid rgb(66, 65, 65);
+  background-color: rgb(104, 104, 209);
+  border-radius: 2%;
+  height: 130px;
+  width: 130px;
+  top: 123px;
+  left: 10px;
+  position: relative;
+  z-index: 1;
+  background-image: url(https://www.jeuxactu.com/datas/jeux/f/o/forza-motorsport-5/vn/forza-motorsport-5-5257cacc69a06.jpg);
+  background-size: cover;
+}
+
+.name {
+  position: relative;
+  left: 150px;
+  top: -35px;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.website {
+  position: relative;
+  left: 150px;
+  top: -30px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.emoji li {
+  position: relative;
+  display: inline;
+  list-style: none;
+  left: 330px;
+  top: -55px;
+  background-color: whitesmoke;
+  color: rgb(30, 30, 97);
+  border-radius: 5%;
+  border: .5px solid rgb(66, 65, 65);
+  margin: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  }
+
+.navbar {
+  width: 850px;
+  height: 38px;
+  background-color:white;
+  margin: 0 auto;
+  position: relative;
+  top: 80px;
+}
+
+ul {
+  position: relative;
+  left: 150px;
+  padding-top: 10px;
+}
+
+li {
+  margin: 10px;
+  display: inline;
+  list-style: none;
+  line-height: 1em;
+  border-bottom: solid 1px rgb(41, 51, 94);
+}
+
+           /*beginning of columns*/
+
+.columns {
+  width: 850px;
+  margin: 0 auto;
+}
+
+.leftcolumn {
+  height: 700px;
+  width: 328px;
+  float: left;
+  position: relative;
+  top: 45px;
+}
+
+.box1 {
+  float: left;
+  height: 200px;
+  width: 328px;
+  background-color: white;
+  color: rgb(70, 66, 66);
+}
+
+.rightcolumn {
+  height: 700px;
+  width: 512px;
+  float: right;
+  position: relative;
+  top: 45px;
+}
+
+.box2 {
+  float: right;
+  height: 400px;
+  width: 512px;
+  background-color: white;
+  color: rgb(70, 66, 66);
+}
+ .div2 {
+  position: relative;
+  height: 300px;
+  width: 512px;
+  background-color: rgb(107, 107, 197);
+  background-image: url(https://i.kym-cdn.com/photos/images/facebook/001/260/639/4a2.png);
+ }
+  h2  {
+    border-bottom: solid 1px rgb(41, 51, 94);
+  }
